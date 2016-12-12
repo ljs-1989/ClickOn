@@ -1,0 +1,14 @@
+﻿<resources>
+    <string name="app_name">点我啊</string>
+    <string name="current_level">当前级别</string>
+    <string name="mode">模式</string>
+    <string name="voice">声音</string>
+    <string name="version_updating">版本更新</string>
+    <!--sharepreferences缓存字段名-->
+    <string name="switch_img_path">点图地址</string>
+    <string name="item_color">底色</string>
+    <string name="my_max_level">我的最大级</string>
+    <string name="switch_number">同时切换数量</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>

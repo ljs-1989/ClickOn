@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/drawable_bg_white_radius_5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="成绩单"
+            android:layout_marginTop="20dp"
+            android:textColor="#333"
+            android:textSize="21sp" />
+        <TextView
+            android:id="@+id/text_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:layout_gravity="center_horizontal"
+            tools:text="版本号V3.4\n本次升级内容：\n1、fasdfafafdfasfasf  \n 2、fasdfasdfasfasfa \n3、afdafasdfasfasfasf"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#999"
+            android:textSize="13sp" />
+
+
+        <Button
+            android:layout_height="50dp"
+            android:layout_width="170dp"
+            android:id="@+id/btn_confirm"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#333"
+            tools:text="重新开始" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:src="@mipmap/target_adv_delete_ico"
+        android:layout_gravity="right" />
+</FrameLayout>
